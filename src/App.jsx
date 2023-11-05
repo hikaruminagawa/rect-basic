@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Article from './components/Article';
+import TextInput from './components/TextInput';
+import Counter from './components/Counter';
+import ToggleButton from './components/ToggleButton';
+
 
 function App() {
   return (
@@ -17,6 +22,13 @@ function App() {
         >
           Learn React
         </a>
+        <Article
+          title="Welcome to React"
+          content="Hello there!"
+        />
+        <TextInput/>
+        <Counter/>
+        <ToggleButton/>
       </header>
     </div>
   );
